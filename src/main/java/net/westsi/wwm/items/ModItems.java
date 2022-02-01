@@ -14,6 +14,9 @@ public class ModItems {
     public static final Item PISTOL = registerItem("pistol",
             new ModGunItem(new FabricItemSettings().fireproof().group(ItemGroup.MISC)));
 
+    public static final Item TEST_AMMO = registerItem("testammo",
+            new Item(new FabricItemSettings().fireproof().group(ItemGroup.MISC)));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(WWM.MOD_ID, name), item);
