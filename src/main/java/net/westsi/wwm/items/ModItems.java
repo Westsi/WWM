@@ -6,7 +6,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.westsi.wwm.WWM;
-import net.westsi.wwm.guns.ModGunItem;
+import net.westsi.wwm.items.custom.guns.ModGunItem;
 
 public class ModItems {
 

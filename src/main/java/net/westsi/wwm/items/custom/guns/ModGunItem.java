@@ -1,14 +1,8 @@
-package net.westsi.wwm.guns;
+package net.westsi.wwm.items.custom.guns;
 
 import net.minecraft.item.BowItem;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.tag.ItemTags;
-import net.minecraft.tag.Tag;
 import net.minecraft.util.UseAction;
-import net.westsi.wwm.items.ModItems;
-
-import java.util.function.Predicate;
 
 public class ModGunItem extends BowItem {
 

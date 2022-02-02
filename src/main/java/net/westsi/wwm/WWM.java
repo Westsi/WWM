@@ -1,6 +1,7 @@
 package net.westsi.wwm;
 
 import net.fabricmc.api.ModInitializer;
+import net.westsi.wwm.blocks.ModBlocks;
 import net.westsi.wwm.items.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,6 +17,7 @@ public class WWM implements ModInitializer {
 		// Proceed with mild caution.
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }
